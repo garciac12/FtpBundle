@@ -1,0 +1,25 @@
+{
+    "name": "tarsio/ftp-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony2 Bundle to wrap the PHP ftp extension functionality.",
+    "keywords": ["ftp"],
+    "homepage": "https://github.com/garciac12/FtpBundle",
+    "license": "Apache",
+    "authors": [
+        {
+"name": "Carlos A. Garcia",
+"email": "garciac12@gmail.com",
+"homepage": "http://www.tarsio.com.ar",
+"role": "Developer"
+}
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+             "Tarsio\\Bundle\\FtpBundle": ""
+        }
+    },
+    "target-dir": "Tarsio/Bundle/FtpBundle"
+}
